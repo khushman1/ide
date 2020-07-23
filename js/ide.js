@@ -1,4 +1,4 @@
-var defaultUrl = localStorageGetItem("api-url") || "https://secure.judge0.com/standard";
+var defaultUrl = "http://judge0.104.196.58.4.nip.io";
 var apiUrl = defaultUrl;
 var wait = localStorageGetItem("wait") || false;
 var pbUrl = "https://pb.judge0.com";
